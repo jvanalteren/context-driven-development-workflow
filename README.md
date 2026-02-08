@@ -24,7 +24,10 @@ Where traditional workflows assume that learning happens primarily in the heads 
 
 ## Relationship to Context-Driven Engineering (CDE)
 
-CDDW is **not** a replacement for Context-Driven Engineering (CDE), nor is it a mandatory interpretation of it.
+For the conceptual foundation behind CDDW, see **Context-Driven Engineering (CDE)**:  
+<https://github.com/symbolicmatter/context-driven-engineering>
+
+CDDW is **not** a replacement for Context-Driven Engineering (CDE), nor is it a mandatory interpretation of it. It is a concrete workflow that builds on CDE’s conceptual model.
 
 - **CDE** provides a *conceptual framework* for thinking about context, coherence, and meaning in software systems.
 - **CDDW** provides *one possible operationalization* of those ideas in an AI-heavy engineering environment.
