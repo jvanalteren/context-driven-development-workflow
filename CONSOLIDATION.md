@@ -1,5 +1,20 @@
 # Consolidation
 
+## Contents
+
+- [Purpose](#purpose)
+- [What Consolidation Is — and Is Not](#what-consolidation-is--and-is-not)
+- [Inputs to Consolidation](#inputs-to-consolidation)
+- [Who Performs Consolidation](#who-performs-consolidation)
+- [When Consolidation Occurs](#when-consolidation-occurs)
+- [The Consolidation Decision Space](#the-consolidation-decision-space)
+- [Scope of Consolidation](#scope-of-consolidation)
+- [Consolidation and Authority](#consolidation-and-authority)
+- [Consolidation as a Gate](#consolidation-as-a-gate)
+- [Common Failure Modes](#common-failure-modes)
+- [Minimal Discipline, Maximum Effect](#minimal-discipline-maximum-effect)
+- [Status of This Document](#status-of-this-document)
+
 ## Purpose
 
 **Consolidation** is the process by which learning captured during development

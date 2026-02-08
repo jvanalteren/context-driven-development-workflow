@@ -5,6 +5,18 @@ how work flows, repeats, and commits over time.
 
 For definitions, responsibilities, and invariants, see `docs/CDDW.md`.
 
+## Contents
+
+- [Workflow Dynamics](#workflow-dynamics)
+- [The Development–Learning Cycle](#the-developmentlearning-cycle)
+- [Commitment Points](#commitment-points)
+- [Relationship to CDE Commitment Points](#relationship-to-cde-commitment-points)
+- [Responsibilities at a Glance](#responsibilities-at-a-glance)
+- [Learning Capture Discipline](#learning-capture-discipline)
+- [What This Workflow Optimizes For](#what-this-workflow-optimizes-for)
+- [Using This Document](#using-this-document)
+- [Final Note](#final-note)
+
 ## Workflow Dynamics
 
 CDDW is not a linear sequence of steps.

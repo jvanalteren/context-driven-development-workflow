@@ -1,5 +1,18 @@
 # Learning Artifacts
 
+## Contents
+
+- [Purpose](#purpose)
+- [What a Learning Artifact Is](#what-a-learning-artifact-is)
+- [What a Learning Artifact Is Not](#what-a-learning-artifact-is-not)
+- [When a Learning Artifact Is Required](#when-a-learning-artifact-is-required)
+- [Required Structure](#required-structure)
+- [Style and Constraints](#style-and-constraints)
+- [Authority and Lifecycle](#authority-and-lifecycle)
+- [Common Failure Modes](#common-failure-modes)
+- [Minimal Example (Illustrative)](#minimal-example-illustrative)
+- [Status of This Document](#status-of-this-document)
+
 ## Purpose
 
 This document defines the **required format and constraints** for learning artifacts in the Context-Driven Development Workflow (CDDW).

@@ -6,6 +6,21 @@ It is **normative and operational**, not descriptive.
 
 If instructions are unclear, contradictory, or incomplete, agents must **stop and ask**. Guessing is considered a failure.
 
+## Contents
+
+- [Core Principle](#core-principle)
+- [Agent Roles](#agent-roles)
+  - [1. Implementation Agent](#1-implementation-agent)
+  - [2. Review Agent (optional)](#2-review-agent-optional)
+  - [3. Consolidation Agent (assisted role)](#3-consolidation-agent-assisted-role)
+- [Authoritative Context](#authoritative-context)
+- [Context Read Order (Conceptual)](#context-read-order-conceptual)
+- [Learning Artifacts (Mandatory)](#learning-artifacts-mandatory)
+- [Incremental Discipline](#incremental-discipline)
+- [Failure Conditions](#failure-conditions)
+- [Definition of Done (for Agents)](#definition-of-done-for-agents)
+- [Final Rule](#final-rule)
+
 ## Core Principle
 
 > **Implementation is a learning activity.**
