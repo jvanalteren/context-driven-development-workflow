@@ -103,6 +103,39 @@ If parts of this workflow prove ineffective, they should be revised or discarded
 
 The goal is not methodological purity, but sustained coherence in AI-assisted software development.
 
+CDDW prioritizes durability of understanding over completeness of tooling.
+
+## Current State of the Workflow
+
+CDDW is **conceptually complete but operationally evolving**.
+
+The core ideas, document responsibilities, and learning–consolidation loop described in this repository are already being exercised in real projects. They are not hypothetical, and they are not placeholders.
+
+At the same time, parts of the workflow are still being actively refined through use:
+
+- The *rules and responsibilities* between humans and AI agents are stable in intent, but still being tuned in practice.
+- The *shape and granularity* of learning artifacts is being stress-tested across different kinds of work.
+- The *points of friction* in consolidation and review are treated as signals, not failures.
+
+This repository intentionally captures the **stable conceptual spine** of the workflow first. Operational refinements are integrated only after they have proven to improve coherence rather than add ceremony.
+
+Readers should treat CDDW as usable today, but not frozen.
+
+## Ongoing and Future Work
+
+Several areas of CDDW are under active development and will be integrated incrementally as they stabilize:
+
+- **Agent operationalization**  
+  CDDW is being operationalized through explicitly defined AI agent roles and modes (for example in editor-integrated agent environments). These implementations are deliberately kept out of the core workflow until they demonstrate consistent benefits across projects.
+
+- **Worked examples**  
+  Real project examples applying CDDW end-to-end are being developed. They are intentionally withheld until they reflect the workflow accurately, rather than prematurely canonizing early experiments.
+
+- **Failure modes and refinements**  
+  Known failure modes—such as over-capture of low-value learning or delayed consolidation—are being documented and addressed as first-class inputs to the workflow’s evolution.
+
+This repository reflects the *current best understanding* of how to preserve conceptual coherence in AI-assisted development. It is expected to evolve through use, not through speculation.
+
 ## License
 
 This work is licensed under the  
