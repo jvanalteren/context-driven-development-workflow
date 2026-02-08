@@ -1,14 +1,12 @@
 # Context-Driven Development Workflow (CDDW)
 
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+![Experimental Workflow](https://img.shields.io/badge/Status-Experimental%20Workflow-blue?style=for-the-badge) [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-orange?style=for-the-badge)](./LICENSE)
 
 Context-Driven Development Workflow (CDDW) is a **practical, operational workflow** for structuring software development as a continuous learning process in AI-assisted engineering environments.
 
 CDDW is designed for a world in which a significant portion of implementation work is performed by AI agents, with humans providing direction, review, and meaning-making.
 
 Where traditional workflows assume that learning happens primarily in the heads of developers, CDDW treats **learning as a first-class artifact** that must be explicitly captured and curated to preserve coherence over time.
-
----
 
 ## Relationship to Context-Driven Engineering (CDE)
 
@@ -22,8 +20,6 @@ CDDW is deliberately concrete and opinionated about **how development is conduct
 
 You can adopt CDE without CDDW.
 You can experiment with CDDW without fully subscribing to CDE.
-
----
 
 ## The Core Problem CDDW Addresses
 
@@ -40,8 +36,6 @@ Without explicit mechanisms to capture and consolidate that learning:
 
 CDDW addresses this by treating **learning as an explicit output of development**, enforced through a capture and consolidation loop embedded directly in the workflow.
 
----
-
 ## Core Principles
 
 CDDW is built on a small set of non-negotiable principles:
@@ -53,8 +47,6 @@ CDDW is built on a small set of non-negotiable principles:
 - **Context evolves continuously and must be curated deliberately**
 
 These principles are enforced through workflow design rather than intent or discipline alone.
-
----
 
 ## What CDDW Is — and Is Not
 
@@ -72,8 +64,6 @@ These principles are enforced through workflow design rather than intent or disc
 - A replacement for architectural judgment
 - A claim that context can be fully known upfront
 
----
-
 ## High-Level Workflow Overview
 
 At a high level, CDDW introduces four recurring phases within the development lifecycle:
@@ -87,8 +77,6 @@ These phases repeat continuously, ensuring that learning remains visible, review
 
 Detailed responsibilities and rules are defined in the accompanying documents.
 
----
-
 ## Repository Structure
 
 This repository defines CDDW through a small set of focused documents:
@@ -100,8 +88,6 @@ This repository defines CDDW through a small set of focused documents:
 - `CONTRIBUTING.md` — contribution rules and enforcement mechanisms
 
 Each document has a single, well-defined purpose.
-
----
 
 ## Status and Intent
 
@@ -116,8 +102,6 @@ It is intended to:
 If parts of this workflow prove ineffective, they should be revised or discarded.
 
 The goal is not methodological purity, but sustained coherence in AI-assisted software development.
-
----
 
 ## License
 
@@ -138,8 +122,6 @@ Under the following terms:
 This license applies to **all conceptual content, documentation, and written material** in this repository unless explicitly stated otherwise.
 
 For the full legal text, see the [`LICENSE`](./LICENSE) file.
-
----
 
 ## Stewardship
 

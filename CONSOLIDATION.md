@@ -17,8 +17,6 @@ Without consolidation:
 
 Consolidation is therefore **non-optional at commitment points**.
 
----
-
 ## What Consolidation Is — and Is Not
 
 ### Consolidation **is**
@@ -37,8 +35,6 @@ Consolidation is therefore **non-optional at commitment points**.
 
 Learning does not become authoritative by being written down.
 It becomes authoritative only through consolidation.
-
----
 
 ## Inputs to Consolidation
 
@@ -64,8 +60,6 @@ Additional inputs may include:
 However, **learning artifacts are the trigger**.
 Without them, consolidation has no explicit object.
 
----
-
 ## Who Performs Consolidation
 
 Consolidation **must be performed by humans**.
@@ -86,8 +80,6 @@ The consolidator may be:
 - or a designated context owner
 
 What matters is **authority over context**, not job title.
-
----
 
 ## When Consolidation Occurs
 
@@ -117,8 +109,6 @@ Consolidation is not required immediately. Learning may remain unconsolidated be
 
 At the next commitment point, all unconsolidated learning must be reviewed and processed (integrated, rejected, deferred, or reframed).
 
----
-
 ## The Consolidation Decision Space
 
 For each learning artifact, consolidation results in **one of four outcomes**:
@@ -138,8 +128,6 @@ Examples:
 
 This is the most common outcome.
 
----
-
 ### 2. Rejected
 
 The learning is:
@@ -156,8 +144,6 @@ Rejected learning should be:
 - optionally annotated with rationale
 
 Silent rejection is not allowed.
-
----
 
 ### 3. Deferred
 
@@ -179,8 +165,6 @@ Deferred learning must be:
 
 Indefinite deferral is a failure mode.
 
----
-
 ### 4. Reframed
 
 The learning is:
@@ -194,8 +178,6 @@ In this case:
 - and then integrated, rejected, or deferred
 
 Reframing acknowledges that **discovery and articulation are different skills**.
-
----
 
 ## Scope of Consolidation
 
@@ -218,8 +200,6 @@ Consolidation does **not** require:
 
 Only learning with implications beyond the immediate change belongs in context.
 
----
-
 ## Consolidation and Authority
 
 Consolidation changes **authoritative documents**.
@@ -235,8 +215,6 @@ they must be updated coherently.
 
 Partial consolidation that introduces new inconsistencies is a failure.
 
----
-
 ## Consolidation as a Gate
 
 At commitment points, consolidation functions as a **Consistency Gate**, as defined in CDE.
@@ -249,8 +227,6 @@ The gate is passed only when:
 
 The gate exists to protect downstream work,
 not to slow development arbitrarily.
-
----
 
 ## Common Failure Modes
 
@@ -271,8 +247,6 @@ Common consolidation failures include:
 CDDW makes these failures visible,
 but does not prevent them automatically.
 
----
-
 ## Minimal Discipline, Maximum Effect
 
 Consolidation is intentionally lightweight.
@@ -287,8 +261,6 @@ What matters is **explicit alignment**, not volume.
 
 If consolidation feels heavy,
 it often signals that too much learning is being deferred.
-
----
 
 ## Status of This Document
 

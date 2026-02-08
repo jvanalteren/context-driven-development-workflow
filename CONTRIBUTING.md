@@ -12,8 +12,6 @@ Contributions are welcome — but they are expected to respect the **conceptual 
 By contributing, you agree that your contributions are licensed under CC
 BY-NC-SA 4.0.
 
----
-
 ## What This Repository Is
 
 This repository exists to:
@@ -33,8 +31,6 @@ This repository is **not** intended to:
 CDDW is deliberately demanding.
 Reducing that demand without understanding its purpose is not an improvement.
 
----
-
 ## Types of Contributions Welcome
 
 We welcome contributions that:
@@ -51,8 +47,6 @@ We are especially interested in contributions that:
 - Surface cases where the workflow breaks down
 - Identify unnecessary complexity or missing constraints
 
----
-
 ## Types of Contributions We Will Push Back On
 
 Expect pushback on contributions that:
@@ -68,8 +62,6 @@ It makes explicit trade-offs.
 Contributions that remove those trade-offs without replacing them
 are likely to be rejected.
 
----
-
 ## Normativity and Scope
 
 CDDW is **intentionally opinionated**.
@@ -84,8 +76,6 @@ When contributing, assume that:
 If you believe an invariant is wrong,
 challenge it explicitly rather than weakening it implicitly.
 
----
-
 ## Relationship to CDE
 
 CDDW is an operational complement to Context-Driven Engineering (CDE),
@@ -99,8 +89,6 @@ Contributions should **not**:
 
 Changes that affect the conceptual boundary between CDDW and CDE
 require explicit discussion.
-
----
 
 ## How to Contribute
 
@@ -118,8 +106,6 @@ require explicit discussion.
 4. Explain trade-offs.
    If a change simplifies something, state what is lost.
 
----
-
 ## AI-Assisted Contributions
 
 AI-assisted contributions are allowed.
@@ -132,8 +118,6 @@ However:
 
 AI is a collaborator, not an author.
 
----
-
 ## Tone and Conduct
 
 Be precise.
@@ -142,8 +126,6 @@ Assume intelligence and good intent.
 
 Strong opinions are welcome.
 Hand-waving is not.
-
----
 
 ## Final Note
 

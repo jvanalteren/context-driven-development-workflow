@@ -6,8 +6,6 @@ It is **normative and operational**, not descriptive.
 
 If instructions are unclear, contradictory, or incomplete, agents must **stop and ask**. Guessing is considered a failure.
 
----
-
 ## Core Principle
 
 > **Implementation is a learning activity.**
@@ -18,13 +16,9 @@ Humans consolidate meaning.
 
 Code is not the primary output of this workflow. **Learning is.**
 
----
-
 ## Agent Roles
 
 CDDW distinguishes between three agent roles. Not all roles must be present in every project, but when they are, their responsibilities are strict and non-overlapping.
-
----
 
 ### 1. Implementation Agent
 
@@ -46,8 +40,6 @@ Execute a clearly defined task and surface all learning that emerges during impl
 - MUST NOT resolve ambiguity by assumption
 - MUST record contradictions, invalidated assumptions, and uncertainty explicitly
 
----
-
 ### 2. Review Agent (optional)
 
 **Purpose**
@@ -64,8 +56,6 @@ Assess implementation and associated learning for correctness, clarity, and sign
 - MUST NOT introduce new learning
 - MUST NOT reinterpret or consolidate learning
 - MAY request clarification or refinement of a Learning Artifact
-
----
 
 ### 3. Consolidation Agent (assisted role)
 
@@ -84,8 +74,6 @@ Support humans during context consolidation by organizing and summarizing learni
 - MUST NOT make meaning-making decisions
 - MUST defer all final judgment to humans
 
----
-
 ## Authoritative Context
 
 Before starting any non-trivial task, agents must read all authoritative context explicitly defined by the project.
@@ -95,8 +83,6 @@ Context is authoritative. Code is derivative.
 If required context is missing, contradictory, or ambiguous, agents must stop and request clarification.
 
 Agents may not compensate for missing context by inventing structure, abstractions, or intent.
-
----
 
 ## Context Read Order (Conceptual)
 
@@ -109,8 +95,6 @@ When authoritative context is present, agents should read it in the following co
 5. **Specifications** — task-level behavioral contracts
 
 If this order is not explicitly defined by the project, agents must ask.
-
----
 
 ## Learning Artifacts (Mandatory)
 
@@ -127,8 +111,6 @@ Learning Artifacts:
 
 Learning Artifacts are **temporary knowledge containers**, not documentation.
 
----
-
 ## Incremental Discipline
 
 Agents must work in small, reviewable steps.
@@ -140,8 +122,6 @@ After each significant change, agents must:
 - Update the Learning Artifact accordingly
 
 Large, unreviewable changes are discouraged.
-
----
 
 ## Failure Conditions
 
@@ -155,8 +135,6 @@ An agent task FAILS if:
 
 Failing fast is preferred over silent coherence drift.
 
----
-
 ## Definition of Done (for Agents)
 
 An agent task is considered complete only when:
@@ -168,8 +146,6 @@ An agent task is considered complete only when:
 - Confidence level is stated
 
 If these conditions cannot be met, the agent must stop and explain why.
-
----
 
 ## Final Rule
 

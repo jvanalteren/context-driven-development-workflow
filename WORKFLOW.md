@@ -5,8 +5,6 @@ how work flows, repeats, and commits over time.
 
 For definitions, responsibilities, and invariants, see `docs/CDDW.md`.
 
----
-
 ## Workflow Dynamics
 
 CDDW is not a linear sequence of steps.
@@ -15,8 +13,6 @@ It is a **cyclical workflow with an explicit commitment boundary**.
 
 Some activities may repeat freely.
 Others are mandatory before commitment is allowed.
-
----
 
 ## The Development–Learning Cycle
 
@@ -58,8 +54,6 @@ flowchart TD
 - Context Consolidation may occur opportunistically during exploration,
   but becomes mandatory when approaching a commitment point.
 
----
-
 ## Commitment Points
 
 At certain moments, higher discipline is required.
@@ -82,8 +76,6 @@ Proceeding without consolidation at a commitment point is a stop condition.
 A commitment point activates the same consistency expectations as defined in CDE:
 downstream work may only proceed when context and implementation are aligned.
 
----
-
 ## Relationship to CDE Commitment Points
 
 CDDW adopts the concept of **Commitment Points** from Context-Driven Engineering (CDE).
@@ -97,8 +89,6 @@ At these points:
 CDDW provides a concrete mechanism for satisfying this requirement
 by making learning capture and consolidation non-optional inputs to the gate.
 
----
-
 ## Responsibilities at a Glance
 
 | Phase                 | Primary Responsibility |
@@ -109,8 +99,6 @@ by making learning capture and consolidation non-optional inputs to the gate.
 | Context Consolidation | Human                  |
 
 Roles and behavioral expectations are defined in `AGENT_ROLES.md`.
-
----
 
 ## Learning Capture Discipline
 
@@ -123,8 +111,6 @@ When multiple learnings emerge from a single discovery event:
 Multiple focused artifacts are preferable to one overloaded artifact or lost insights.
 
 The goal is clarity, not minimalism.
-
----
 
 ## What This Workflow Optimizes For
 
@@ -143,8 +129,6 @@ It does **not** optimize for:
 
 These trade-offs are intentional.
 
----
-
 ## Using This Document
 
 Use this document:
@@ -155,8 +139,6 @@ Use this document:
 
 If this document feels unnecessary,
 it is often a signal that learning is still implicit.
-
----
 
 ## Final Note
 

@@ -14,8 +14,6 @@ Learning artifacts are **inputs to consolidation**, not authoritative records th
 
 If learning is not captured in this format, it is considered **lost**.
 
----
-
 ## What a Learning Artifact Is
 
 A **learning artifact** is a short, structured record of **new or corrected understanding** that emerged during development and may affect shared context.
@@ -33,8 +31,6 @@ Learning artifacts are:
 They are **not** expected to be correct.
 They are expected to be **honest and explicit**.
 
----
-
 ## What a Learning Artifact Is Not
 
 A learning artifact is **not**:
@@ -47,8 +43,6 @@ A learning artifact is **not**:
 - an implementation note
 
 If the content primarily explains *what was done* rather than *what was learned*, it does not belong here.
-
----
 
 ## When a Learning Artifact Is Required
 
@@ -67,15 +61,11 @@ If learning occurs and is not captured, the workflow is incomplete.
 
 Capture learning only when it affects behavior, domain meaning, architectural boundaries, or decisions about scope and design. Do not record observations that have no plausible impact on shared context or future work.
 
----
-
 ## Required Structure
 
 Every learning artifact **must** follow the structure below.
 
 Sections may be brief, but **must not be omitted**.
-
----
 
 ### 1. Context
 
@@ -94,8 +84,6 @@ Example:
 
 Do **not** restate their contents.
 
----
-
 ### 2. Observation
 
 Describe **what was observed** during development.
@@ -113,8 +101,6 @@ Examples:
 
 Avoid speculation here.
 
----
-
 ### 3. Learning
 
 State the **new or corrected understanding** that emerged.
@@ -128,8 +114,6 @@ Examples:
 
 Learning may be tentative.
 Uncertainty is allowed.
-
----
 
 ### 4. Implications
 
@@ -146,8 +130,6 @@ Possible targets:
 Do **not** propose specific edits.
 Focus on *impact*, not solution.
 
----
-
 ### 5. Confidence
 
 Indicate how confident you are in this learning.
@@ -160,16 +142,12 @@ Suggested values:
 
 This helps consolidation calibrate rigor.
 
----
-
 ### 6. Open Questions (Optional)
 
 List unresolved questions, if any.
 
 This section is optional.
 Do not force questions where none exist.
-
----
 
 ### 7. Consolidation Priority
 
@@ -182,8 +160,6 @@ Suggested values:
 - **low** — minor clarification or edge case; may be deferred or rejected during consolidation
 
 This helps triage learning artifacts during consolidation review.
-
----
 
 ## Style and Constraints
 
@@ -202,8 +178,6 @@ Avoid:
 
 Learning artifacts are **raw material for judgment**, not conclusions.
 
----
-
 ## Authority and Lifecycle
 
 Learning artifacts:
@@ -219,8 +193,6 @@ After consolidation:
 - their contents live on only through updated context
 
 Learning artifacts are **ephemeral by design**.
-
----
 
 ## Common Failure Modes
 
@@ -239,8 +211,6 @@ Typical issues with learning artifacts include:
   Recording insight without surfacing its impact on shared context.
 
 If consolidation struggles, inspect the learning artifacts first.
-
----
 
 ## Minimal Example (Illustrative)
 
@@ -263,8 +233,6 @@ Retries can trigger duplicate charges.
 ## Confidence
 High
 ```
-
----
 
 ## Status of This Document
 

@@ -17,8 +17,6 @@ CDDW does not replace design judgment or architectural thinking.
 It provides a concrete structure for **capturing, validating, and integrating
 learning** that would otherwise remain implicit, local, or lost.
 
----
-
 ## Relationship to Context-Driven Engineering (CDE)
 
 CDDW is **not** Context-Driven Engineering.
@@ -44,8 +42,6 @@ You can experiment with CDDW without fully committing to CDE.
 However, **CDDW only makes sense in projects where explicit context exists and
 is treated as authoritative**.
 
----
-
 ## Core Claim
 
 > **Software development inevitably produces learning.  
@@ -70,8 +66,6 @@ This makes **unexternalized learning a systemic risk**.
 
 CDDW exists to mitigate that risk.
 
----
-
 ## Key Concepts
 
 ### Learning
@@ -94,8 +88,6 @@ Learning is **not**:
 
 Learning is only relevant if it has **implications for shared context**.
 
----
-
 ### Learning Artifact
 
 A **Learning Artifact** is a structured, written record of learning produced
@@ -115,8 +107,6 @@ Learning artifacts are:
 
 They are defined formally in `LEARNINGS.md`.
 
----
-
 ### Consolidation
 
 **Consolidation** is the act of integrating validated learning into
@@ -133,8 +123,6 @@ Learning does **not** become authoritative automatically.
 
 The consolidation process is defined in `CONSOLIDATION.md`.
 
----
-
 ## The CDDW Lifecycle
 
 CDDW structures development as a repeating cycle with four phases:
@@ -146,8 +134,6 @@ CDDW structures development as a repeating cycle with four phases:
 
 This is not a linear process with a fixed end state.  
 It is a **continuous loop** that operates throughout the lifetime of a system.
-
----
 
 ### 1. Task Definition
 
@@ -168,8 +154,6 @@ A task is considered incomplete until:
 - implementation is finished **and**
 - learning has been externalized (if any occurred)
 
----
-
 ### 2. Implementation
 
 Implementation is typically performed by:
@@ -186,8 +170,6 @@ During implementation:
 
 Implementation is treated as a **knowledge-producing activity**, not just execution.
 
----
-
 ### 3. Learning Capture
 
 After (or during) implementation, learning is captured in one or more learning artifacts.
@@ -202,8 +184,6 @@ Learning capture:
 
 Its sole purpose is to prevent learning from disappearing.
 
----
-
 ### 4. Context Consolidation
 
 Captured learning is reviewed and processed by humans.
@@ -216,8 +196,6 @@ Possible outcomes include:
 - explicitly rejecting or deferring the learning
 
 Only after consolidation does learning affect authoritative context.
-
----
 
 ## Roles and Responsibilities
 
@@ -233,8 +211,6 @@ Responsible for:
 
 This role may be fulfilled by AI agents.
 
----
-
 ### Consolidation Role
 
 Responsible for:
@@ -245,8 +221,6 @@ Responsible for:
 
 This role **must be fulfilled by humans**.
 
----
-
 ### Review Responsibility
 
 At defined points (for example before merging or release):
@@ -255,8 +229,6 @@ At defined points (for example before merging or release):
 - required consolidation is verified
 
 Unconsolidated learning at commitment points is a stop condition.
-
----
 
 ## Invariants of the Workflow
 
@@ -271,8 +243,6 @@ discovery
 
 If these invariants are violated, CDDW is not being practiced.
 
----
-
 ## What CDDW Does Not Prescribe
 
 CDDW deliberately does **not** prescribe:
@@ -284,8 +254,6 @@ CDDW deliberately does **not** prescribe:
 - project management methodology
 
 CDDW defines **responsibilities and flows**, not tooling.
-
----
 
 ## Failure Modes
 
@@ -306,8 +274,6 @@ Common failure modes when adopting CDDW include:
 CDDW does not prevent these failures automatically.  
 It makes them visible and addressable.
 
----
-
 ## When CDDW Is a Poor Fit
 
 CDDW may be unsuitable when:
@@ -319,8 +285,6 @@ CDDW may be unsuitable when:
 
 CDDW trades speed for coherence.  
 That trade-off must be intentional.
-
----
 
 ## Status of This Document
 
