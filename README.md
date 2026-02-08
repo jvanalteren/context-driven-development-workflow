@@ -8,6 +8,20 @@ CDDW is designed for a world in which a significant portion of implementation wo
 
 Where traditional workflows assume that learning happens primarily in the heads of developers, CDDW treats **learning as a first-class artifact** that must be explicitly captured and curated to preserve coherence over time.
 
+## Contents
+
+- [Relationship to Context-Driven Engineering (CDE)](#relationship-to-context-driven-engineering-cde)
+- [The Core Problem CDDW Addresses](#the-core-problem-cddw-addresses)
+- [Core Principles](#core-principles)
+- [What CDDW Is — and Is Not](#what-cddw-is--and-is-not)
+- [High-Level Workflow Overview](#high-level-workflow-overview)
+- [Repository Structure](#repository-structure)
+- [Status and Intent](#status-and-intent)
+- [Current State of the Workflow](#current-state-of-the-workflow)
+- [Ongoing and Future Work](#ongoing-and-future-work)
+- [License](#license)
+- [Stewardship](#stewardship)
+
 ## Relationship to Context-Driven Engineering (CDE)
 
 CDDW is **not** a replacement for Context-Driven Engineering (CDE), nor is it a mandatory interpretation of it.
