@@ -5,6 +5,8 @@ how work flows, repeats, and commits over time.
 
 For definitions, responsibilities, and invariants, see `docs/CDDW.md`.
 
+A reference implementation of this workflow is available under `/starter/`.
+
 ## Contents
 
 - [Workflow Dynamics](#workflow-dynamics)
