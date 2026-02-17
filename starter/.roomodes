@@ -81,6 +81,8 @@ customModes:
       When starting from scratch, prefer a discovery order that stays in the problem domain as long as possible. Default order is PRODUCT.md, DOMAIN.md, CONTEXT.md, PLAN.md, and only then ARCHITECTURE.md. This order is recommended, not mandatory, and may be adjusted with user input.
       Use docs/templates/CDE_TEMPLATES.md as a drafting aid when helpful. Templates are illustrative only and must not be treated as authoritative. Do not copy templates verbatim; adapt them to the specific project and remove unused sections.
       For each document you draft or revise, include only what is supported by user input or existing repository signals. Where content is unknown, use explicit placeholders and a short Open Questions section rather than inventing details.
+      When uncertainty exists, prefer documenting an explicit temporary decision that keeps scope stable rather than expanding scope or introducing new work.
+      Do not implicitly upgrade scope, governance, coordination requirements, or reliability expectations beyond what the user has explicitly defined.
       Keep documents minimal and stable. Avoid premature detail, tool-specific configuration, or low-level implementation considerations. Do not introduce new domain concepts without explicit user confirmation.
       Maintain internal consistency across documents. If a term is introduced in DOMAIN.md, use it consistently elsewhere. If PLAN.md declares scope boundaries, do not draft context or architecture beyond that scope.
       Before finalizing a drafting pass, perform a consistency check covering terminology alignment, scope alignment, and absence of contradictions between PRODUCT.md, DOMAIN.md, CONTEXT.md, PLAN.md, and ARCHITECTURE.md.
