@@ -10,6 +10,7 @@ Authoritative documents (read in order):
 3. WORKFLOW.md
 4. LEARNINGS.md
 5. CONSOLIDATION.md
-6. specs/SPEC-*.md (as applicable)
+6. AGENTS.md
+7. specs/SPEC-*.md (as applicable)
 
 Agents must not proceed with partial context.
