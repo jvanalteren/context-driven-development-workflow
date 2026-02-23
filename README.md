@@ -197,3 +197,37 @@ This work is published and maintained by **Symbolic Matter**.
 
 Symbolic Matter is a research-driven studio exploring the intersection of
 software design, meaning, and emerging AI-assisted development practices.
+
+## Repository index
+
+- [docs](./docs)
+  - [CDDW.md](./docs/CDDW.md)
+- [learnings](./learnings)
+  - [LEARNING-process-discovery-model.md](./learnings/LEARNING-process-discovery-model.md)
+  - [LEARNING-process-domain.md](./learnings/LEARNING-process-domain.md)
+- [starter](./starter)
+  - [.roo](./starter/.roo)
+    - [rules](./starter/.roo/rules)
+      - [00-cde-global.md](./starter/.roo/rules/00-cde-global.md)
+  - [learnings](./starter/learnings)
+    - [.gitkeep](./starter/learnings/.gitkeep)
+  - [specs](./starter/specs)
+    - [.gitkeep](./starter/specs/.gitkeep)
+  - [.rooignore](./starter/.rooignore)
+  - [.roomodes](./starter/.roomodes)
+  - [AGENTS.md](./starter/AGENTS.md)
+  - [CDE_INDEX.md](./starter/CDE_INDEX.md)
+  - [CONTRIBUTING.md](./starter/CONTRIBUTING.md)
+  - [README.md](./starter/README.md)
+  - [TESTING_STRATEGY.md](./starter/TESTING_STRATEGY.md)
+- [.gitignore](./.gitignore)
+- [.markdownlint.json](./.markdownlint.json)
+- [.roomodes](./.roomodes)
+- [AGENT_ROLES.md](./AGENT_ROLES.md)
+- [CONSOLIDATION.md](./CONSOLIDATION.md)
+- [CONTRIBUTING.md](./CONTRIBUTING.md)
+- [DISCOVERY_GUIDE.md](./DISCOVERY_GUIDE.md)
+- [LEARNINGS.md](./LEARNINGS.md)
+- [LICENSE](./LICENSE)
+- [README.md](./README.md)
+- [WORKFLOW.md](./WORKFLOW.md)
