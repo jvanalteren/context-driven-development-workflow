@@ -14,7 +14,7 @@ The intent of this guide is to delay solution thinking until problem understandi
 
 When starting from scratch:
 
-> Stay in the problem domain as long as possible.Stay in the problem domain as long as possible.
+> Stay in the problem domain as long as possible.
 > Do not introduce structural or technical decisions before domain language and constraints are stable enough to justify them.
 
 Default discovery order:
@@ -25,7 +25,7 @@ Default discovery order:
 4. PLAN.md
 5. ARCHITECTURE.md
 
-Discovery roles are responsible for protecting the problem domain from premature structural decisions.
+Discovery roles are responsible for protecting the problem domain from premature structural decisions. They may identify architectural tensions, but must not resolve them structurally.
 
 Architecture should emerge from clarified domain and constraints —
 not from early technical enthusiasm.
@@ -155,6 +155,7 @@ Instructions:
 
 - Do not restate PRODUCT or DOMAIN.
 - Identify constraints that shape future design decisions without defining structure.
+- Constraints must describe limits, not solutions.
 - Surface trade-offs explicitly.
 ```
 
@@ -176,6 +177,7 @@ Clarify sequencing and commitment strategy.
 PLAN defines sequencing and commitment intent.
 It must not introduce architectural structure or technical layering decisions.
 If structural decisions emerge during planning, defer them to ARCHITECTURE.md.
+PLAN may sequence architectural work, but must not define architectural content.
 
 ## Example Prompt
 
@@ -204,7 +206,7 @@ DOMAIN and CONTEXT must be sufficiently stable that:
 - Major constraints are documented.
 - Open questions do not affect structural decisions.
 
-If these conditions are not met, return to Discovery.
+If these conditions are not met, return to Discovery. Architecture created on unstable domain foundations will likely require revision.
 
 ## Goal
 
@@ -249,6 +251,8 @@ CDE_INDEX.md must reflect only existing authoritative documents.
 - After stabilizing CONTEXT.md → add to index.
 - Do not pre-declare future documents.
 
+Stabilization means the document is coherent, internally consistent, and no major ambiguities remain that would affect downstream decisions.
+
 Index reflects authority.
 It does not predict it.
 
@@ -269,7 +273,8 @@ Bootstrapping → Domain Clarification → Constraint Clarification → Sequenci
 This guide assumes linear progression for clarity.
 In practice, discovery is iterative.
 
-However, iteration should move backward in the sequence, not forward prematurely.
+However, iteration should move backward in the sequence, not forward prematurely. Moving forward without stabilizing understanding increases the risk of rework and structural inconsistency.
+
 If architectural thinking reveals missing domain clarity, return to DOMAIN or CONTEXT.
 Do not compensate for unclear domain modeling with technical structure.
 
