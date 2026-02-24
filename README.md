@@ -171,6 +171,14 @@ Several areas of CDDW are under active development and will be integrated increm
 
 This repository reflects the *current best understanding* of how to preserve conceptual coherence in AI-assisted development. It is expected to evolve through use, not through speculation.
 
+## Influences
+
+CDDW evolves in dialogue with ongoing industry experimentation and discussion around AI-assisted software engineering.
+
+External articles, case studies, and public discussions that have influenced refinements are recorded in [`INFLUENCES.md`](./INFLUENCES.md).
+
+These sources have shaped clarifications and refinements over time.
+
 ## License
 
 This work is licensed under the  
