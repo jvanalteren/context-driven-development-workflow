@@ -27,3 +27,23 @@ Triggered explicit separation between CDE (conceptual, non-prescriptive) and CDD
 - Refinement
 - Structural change
 - Positioning clarification
+
+## 2026-01 — Agent Workflow Notes (Andrej Karpathy)
+
+**External Signal**
+Andrej Karpathy (X, Jan 2026) reflected on large-scale agent-assisted coding. Observed silent assumptions, abstraction bloat, lack of uncertainty management, scope creep, and overproduction despite major productivity gains.
+
+**Key Themes**
+
+- Agents make unexamined assumptions and don’t seek clarification
+- Overengineering and abstraction bloat as default failure modes
+- Declarative success criteria outperform imperative prompting
+
+**Internal Response**
+Strengthened `AGENTS.md` with explicit Epistemic Discipline and Uncertainty Declaration rules; added Scope Containment constraints; formalized simplification and anti-overengineering requirements. Reinforced spec-as-success-criteria framing in CDDW positioning.
+
+**Type of Influence**
+
+- Validation
+- Refinement
+- Positioning clarification

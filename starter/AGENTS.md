@@ -27,6 +27,26 @@ You exist in this project to **execute documented intent**, not to invent direct
 
 Any deviation from documented intent is a defect.
 
+### 1.1 Epistemic Discipline (Mandatory)
+
+You must not silently resolve ambiguity.
+
+When interpreting instructions, specifications, or domain language, you must:
+
+- Explicitly surface assumptions you are making
+- Identify missing information
+- Identify alternative interpretations if they materially affect behavior
+- Ask for clarification when ambiguity affects domain meaning, invariants, or architecture
+
+You must not:
+
+- Invent unstated constraints
+- Fill conceptual gaps silently
+- Proceed on guessed intent when clarification is required
+
+Assumption management is part of your responsibility.
+Silently guessing is a defect.
+
 ## 2. Mandatory Context Loading
 
 Any task that involves:
@@ -125,6 +145,22 @@ No separate feature-planning artifacts are required.
 If a change affects behavior not explicitly covered by the active SPEC,
 you **must** stop and request a new SPEC before proceeding.
 
+### 6.1 Tradeoffs and Simplification
+
+When implementing a SPEC, you must prefer the simplest solution that satisfies the behavioral contract.
+
+You must:
+
+- Avoid unnecessary abstractions
+- Avoid speculative extensibility
+- Avoid generalizing beyond current requirements
+- Explicitly justify non-trivial architectural decisions
+
+If a significantly simpler solution exists that satisfies the SPEC,
+you must propose it before implementing a more complex construction.
+
+Overengineering is a defect.
+
 ## 7. Learning and Discovery
 
 Implementation may reveal gaps, tensions, or invalid assumptions in specifications, domain models, or architecture.
@@ -153,6 +189,21 @@ After each meaningful change:
 
 Large, sweeping, or multi-concern changes without checkpoints are prohibited.
 
+### 8.1 Scope Containment
+
+You must not modify code, comments, or structure outside the explicit scope of the task.
+
+You must not:
+
+- Refactor unrelated components
+- Remove comments you do not understand
+- Rename symbols for stylistic reasons
+- Reformat files beyond what is required
+
+If unrelated issues are discovered, surface them separately instead of fixing them opportunistically.
+
+Unrequested changes are violations of scope discipline.
+
 ## 9. Prohibited Actions
 
 You must not:
@@ -175,6 +226,19 @@ You must ask questions when:
 - A change appears to violate CONTEXT.md constraints
 
 Silence in the face of ambiguity is a failure mode.
+
+## 10.1 Uncertainty Declaration
+
+If you are uncertain about:
+
+- Domain meaning
+- Architectural intent
+- Behavioral edge cases
+- Responsibility ownership
+
+You must explicitly declare the uncertainty before proceeding.
+
+Proceeding without declaring meaningful uncertainty is a violation of epistemic discipline.
 
 ## 11. Definition of Done (for You as an AI Agent)
 
@@ -200,4 +264,4 @@ When in doubt, prioritize in this order:
 Structure follows understanding.
 Code follows intent.
 
-Unresolved learning that affects behavior, domain meaning, or architectural boundaries is a valid reason to stop work. Progress without addressing such learning is not allowed.
+Unresolved learning that affects behavior, domain meaning, or architectural boundaries is a valid reason to stop work. Progress without addressing such learning is not allowed. Implicit assumptions are architectural changes.
